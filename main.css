@@ -106,8 +106,32 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 2rem;
 }
 
 #features .features-card {
-  width: 50%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.3rem;
+  border: 5px solid var(--dark-blue);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.features-card-text {
+  max-width: 50ch;
+  text-align: center;
+}
+.features-card-text h2 {
+  font-size: 1.4rem;
+  margin-block: 1rem;
+}
+
+.features-card-text p {
+  font-size: 1rem;
+  margin-block: 1rem;
 }
